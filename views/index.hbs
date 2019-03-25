@@ -1,0 +1,18 @@
+{{> header title='Barcode year' subtitle='A year of FT news' }}
+
+<div class="timeline">
+	{{#each months}}
+	<div class="month">
+		<div class="name {{position}}">
+			<p>
+				{{name}}
+			</p>
+		</div>
+		{{#each content}}
+		{{> entry data=this}}
+		{{/each}}
+	</div>
+	{{/each}}
+</div>
+
+{{> footer}}
