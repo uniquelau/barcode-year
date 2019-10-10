@@ -2,7 +2,7 @@
 
 A year of FT News presented as a barcode
 
-![Alt text](./docs/example.png?raw=true "Example of a yeat of FT headline images in Barcode format")
+![Alt text](./docs/example.png?raw=true "Example of a year of FT headline images in Barcode format")
 
 ## Setup
 
